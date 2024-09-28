@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.sale{
+  position: absolute;
+  padding: 2px 30px;
+  background-color: yellow;
+  font-weight: 700;
+}
+
+.sendmsg{
+  margin-top: 15px;
+  background-color: rgb(255, 225, 0);
+  color: white;
+  width: 170px;
+  border-radius: 5px;
+  height: 40px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.our-menu{
+  margin-top: 40px;
+}
+
+.card{
+  position: relative;
+}
+
+.all{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.book{
+  margin-top: 50px;
+}

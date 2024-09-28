@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg"
+import "./App.css"
+import { FaSearch } from "react-icons/fa"
+import Navbar from "./components/Navbar"
+import Carousel from "./components/Carousel"
+import Menu from "./components/Menu"
+import Form from "./components/Form"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hịp
-        </a>
-      </header>
-    </div>
+    <>
+    <div className="container-fluid bg-dark text-white">
+      <Navbar/>
+      <Carousel/>
+      <Menu/>
+      <Form/>
+      </div>
+    </>
   );
 }
 
